@@ -1,6 +1,15 @@
 # portalChest++
 Edit Blockheads instances from rooted Android devices through ADB and /proc/
 
+# Building
+Typing "make" in a terminal should compile and run the program. If there are any build issues, please make an issue about it!
+
+# Requirements
+- ncurses
+- g++
+- rooted Android device
+- adb installed
+
 # How to:
 Run "adb devices" and check if you have only 1 device connected. The program gets the first device found from "adb devices".
 
